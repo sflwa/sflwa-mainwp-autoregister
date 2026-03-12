@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 class SFLWA_MainWP_Bridge {
 
 	private string $api_key       = 'YOUR API KEY HERE';
-	private string $dashboard_url = 'https://mainwp.sflwa.net';
+	private string $dashboard_url = 'YOUR DASHBOARD HERE';
 
 	public function __construct() {
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
