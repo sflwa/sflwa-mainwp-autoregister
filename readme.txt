@@ -4,7 +4,7 @@ Tags: mainwp, automation, cli, wp-cli, registration
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 8.3
-Stable tag: 1.8.8
+Stable tag: 1.9.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ Retrieve IDs from the Dashboard for use in registration.
 `wp sflwa-mainwp clients`
 
 == Changelog ==
+
+= 1.9.5 = 
+* Fix for Timeout
+* Check for site / and direct link
 
 = 1.8.1 =
 * Timeout Resilience: Increased API request timeout to 90 seconds.
